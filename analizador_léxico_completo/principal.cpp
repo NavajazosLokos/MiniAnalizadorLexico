@@ -10,7 +10,7 @@ int main(int argc, char *argv[]){
 
     
     Lexico lexico;
-    lexico.entrada("+-+");
+    lexico.entrada("+-+//4");
     
     cout << "Resultado del Analisis Lexico" << endl << endl;
     cout << "Simbolo\t\tTipo" << endl;
