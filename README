@@ -12,3 +12,23 @@ Hola12     -> IDENTIFICADOR
 5          -> ENTERO 
 
 Identifica los diferentes tokens de la cadena y los imprime catalogandolos.
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+Analizador_Completo.exe
+
+Entrada:
+lexico.entrada("+-+//4");
+
+Resultado:
+
+Resultado del Analisis Lexico
+
+Simbolo         Tipo
++               5
+-               5
++               5
+/               6
+/               6
+44              1
+$               23
